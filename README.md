@@ -12,7 +12,11 @@ La solución proporciona visibilidad sobre el crecimiento de distribuidores, dis
 
 ## Dashboard Preview
   <img width="532" height="733" alt="Captura de pantalla 2026-05-08 191615" src="https://github.com/user-attachments/assets/7329400f-72cb-4cd1-9443-e46b3d3726fa" />
+
+  
   <img width="652" height="631" alt="Captura de pantalla 2026-05-08 191817" src="https://github.com/user-attachments/assets/9c8c2cc2-715f-4e80-8f91-7d14698a862d" />
+
+  
   <img width="647" height="670" alt="Captura de pantalla 2026-05-08 192236" src="https://github.com/user-attachments/assets/4b6185f4-e03c-4a2b-bade-f5317c9dfd44" />
 
 
