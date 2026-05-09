@@ -11,19 +11,19 @@ Desarrollar una solución analítica que permita monitorear el proceso de incorp
 
 ## KPIs Principales
 
-- Nuevos distribuidores registrados.
-- Crecimiento semanal, mensual y anual.
-- Distribución por región y zona comercial.
-- Tendencias de incorporación.
-- Métricas de desempeño comercial.
+- Nuevos distribuidores registrados
+- Crecimiento semanal, mensual y anual
+- Distribución por región y zona comercial
+- Tendencias de incorporación
+- Métricas de desempeño comercial
 
 
 ## Funcionalidades Principales
 - Seguimiento de nuevos registros de distribuidores
-- Análisis geográfico por región/estado y zona comercial.
-- Tendencias semanales/mensuales/anuales de incorporación.
-- Monitoreo de KPIs y métricas de desempeño.
-- Filtros interactivos y capacidad de drill-down.
+- Análisis geográfico por región/estado y zona comercial
+- Tendencias semanales/mensuales/anuales de incorporación
+- Monitoreo de KPIs y métricas de desempeño
+- Filtros interactivos y capacidad de drill-down
 
 
 ## Arquitectura de Datos
@@ -42,22 +42,23 @@ Modelo Semántico en Power BI
 Dashboard y actualización programada
 ```
 
-## Proceso ELT
-1. Extracción de datos desde una base de datos SQL.
-2. Transformación y carga automatizada mediante scripts en Python.
-3. Almacenamiento de información en Google BigQuery.
-4. Conexión del modelo semántico de Power BI al entorno cloud.
-5. Actualización programada para monitoreo continuo de KPIs.
+## Proceso ETL
+1. Extracción de datos desde una base de datos SQL
+2. Transformación y carga automatizada mediante scripts en Python
+3. Almacenamiento de información en Google BigQuery
+4. Conexión del modelo semántico de Power BI al entorno cloud
+5. Actualización programada para monitoreo continuo de KPIs
 
 
 ## Herramientas Utilizadas
-- Power BI.
-- Power Query.
-- DAX.
-- Modelado de Datos.
-- Python.
-- Google BigQuery..
-- Consultas SQL.
+- Power BI
+- Power Query
+- DAX
+- Modelado de Datos
+- Python
+- SQL
+- Google BigQuery
+
 
   
 ## Dashboard Preview
@@ -71,10 +72,10 @@ Dashboard y actualización programada
 
 
 ## Insights Clave
-•Identificación de regiones con mayor captación de nuevos distribuidores.
-•Monitoreo de tendencias de crecimiento comercial por periodo.
-•Detección de variaciones en desempeño entre zonas comerciales.
-•Mayor visibilidad del proceso de onboarding y desempeño comercial.
+•Identificación de regiones con mayor captación de nuevos distribuidores
+•Monitoreo de tendencias de crecimiento comercial por periodo
+•Detección de variaciones en desempeño entre zonas comerciales
+•Mayor visibilidad del proceso de onboarding y desempeño comercial
 
 
 ## Valor de Negocio
