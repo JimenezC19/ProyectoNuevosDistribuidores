@@ -1,14 +1,45 @@
 # Dashboard de Seguimiento de Nuevos Distribuidores
 
+## Descripción
 Dashboard de Business Intelligence desarrollado en Power BI para monitorear el ingreso y desempeño de nuevos distribuidores en una empresa del sector cosmético. 
 La solución proporciona visibilidad sobre el crecimiento de distribuidores, distribución geográfica, tendencias de incorporación y KPIs clave del proceso de onboarding, facilitando la toma de decisiones comerciales y estrategias de expansión.
+
+
+## Objetivo del proyecto
+Desarrollar una solución analítica que permita monitorear el proceso de incorporación de nuevos distribuidores, identificar tendencias de crecimiento comercial y brindar visibilidad operativa mediante KPIs interactivos y análisis geográfico.
+
+
+## KPIs Principales
+
+- Nuevos distribuidores registrados.
+- Crecimiento semanal, mensual y anual.
+- Distribución por región y zona comercial.
+- Tendencias de incorporación.
+- Métricas de desempeño comercial.
+
 
 ## Funcionalidades Principales
 - Seguimiento de nuevos registros de distribuidores
 - Análisis geográfico por región/estado y zona comercial.
-- Tendencias semanales/mensuales de incorporación
-- Monitoreo de KPIs y métricas de desempeño
-- Filtros interactivos y capacidad de drill-down
+- Tendencias semanales/mensuales/anuales de incorporación.
+- Monitoreo de KPIs y métricas de desempeño.
+- Filtros interactivos y capacidad de drill-down.
+
+## Arquitectura de Datos
+
+```plaintext
+Base de Datos SQL
+        ↓
+Consultas SQL
+        ↓
+Procesamiento y automatización con Python
+        ↓
+Google BigQuery
+        ↓
+Modelo Semántico en Power BI
+        ↓
+Dashboard y actualización programada
+```
 
 ## Dashboard Preview
   <img width="447" height="615" alt="Captura de pantalla 2026-05-08 191615" src="https://github.com/user-attachments/assets/7329400f-72cb-4cd1-9443-e46b3d3726fa" />
@@ -26,14 +57,16 @@ La solución proporciona visibilidad sobre el crecimiento de distribuidores, dis
 - DAX.
 - Modelado de Datos.
 - Python.
-- Tecnologías en la nube.
+- Google BigQuery..
 - Consultas SQL.
 
+
 ## Proceso ELT
-- La información del negocio se almacena en una base de datos SQL.
-- Se realiza una consulta SQL para obtener la información requerida.
-- Mediante un script de Python, se ejecuta la carga de la información de la consulta a un servicio en la nube (GoogleBigQuery).
-- El modelo semántico de Power Bi está conectado al servicio en la nube con actualizaciones programadas.
+1. Extracción de datos desde una base de datos SQL.
+2. Transformación y carga automatizada mediante scripts en Python.
+3. Almacenamiento de información en Google BigQuery.
+4. Conexión del modelo semántico de Power BI al entorno cloud.
+5. Actualización programada para monitoreo continuo de KPIs.
   
 
 ## Valor de Negocio
