@@ -11,7 +11,7 @@ La solución proporciona visibilidad sobre el crecimiento de distribuidores, dis
 - Filtros interactivos y capacidad de drill-down
 
 ## Dashboard Preview
-  <img width="373" height="514" alt="Captura de pantalla 2026-05-08 191615" src="https://github.com/user-attachments/assets/7329400f-72cb-4cd1-9443-e46b3d3726fa" />
+  <img width="447" height="615" alt="Captura de pantalla 2026-05-08 191615" src="https://github.com/user-attachments/assets/7329400f-72cb-4cd1-9443-e46b3d3726fa" />
   <br>
   <br>
   <img width="457" height="442" alt="Captura de pantalla 2026-05-08 191817" src="https://github.com/user-attachments/assets/9c8c2cc2-715f-4e80-8f91-7d14698a862d" />
