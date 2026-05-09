@@ -21,11 +21,20 @@ La solución proporciona visibilidad sobre el crecimiento de distribuidores, dis
 
 
 ## Herramientas Utilizadas
-- Power BI
-- Power Query
-- DAX
-- Modelado de Datos
+- Power BI.
+- Power Query.
+- DAX.
+- Modelado de Datos.
+- Python.
+- Tecnologías en la nube.
 - Consultas SQL.
+
+## Proceso ELT
+- La información del negocio se almacena en una base de datos SQL.
+- Se realiza una consulta SQL para obtener la información requerida.
+- Mediante un script de Python, se ejecuta la carga de la información de la consulta a un servicio en la nube (GoogleBigQuery).
+- El modelo semántico de Power Bi está conectado al servicio en la nube con actualizaciones programadas.
+  
 
 ## Valor de Negocio
 Este dashboard permite a los equipos comerciales y operativos identificar oportunidades de crecimiento, monitorear el desempeño de adquisición de distribuidores y mejorar la visibilidad del proceso de incorporación de nuevos distribuidores.
