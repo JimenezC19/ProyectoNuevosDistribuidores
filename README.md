@@ -10,7 +10,6 @@ Desarrollar una solución analítica que permita monitorear el proceso de incorp
 
 
 ## KPIs Principales
-
 - Nuevos distribuidores registrados
 - Crecimiento semanal, mensual y anual
 - Distribución por región y zona comercial
@@ -27,7 +26,6 @@ Desarrollar una solución analítica que permita monitorear el proceso de incorp
 
 
 ## Arquitectura de Datos
-
 ```plaintext
 Base de Datos SQL
         ↓
@@ -72,10 +70,10 @@ Dashboard y actualización programada
 
 
 ## Insights Clave
-•Identificación de regiones con mayor captación de nuevos distribuidores
-•Monitoreo de tendencias de crecimiento comercial por periodo
-•Detección de variaciones en desempeño entre zonas comerciales
-•Mayor visibilidad del proceso de onboarding y desempeño comercial
+- Identificación de regiones con mayor captación de nuevos distribuidores
+- Monitoreo de tendencias de crecimiento comercial por periodo
+- Detección de variaciones en desempeño entre zonas comerciales
+- Mayor visibilidad del proceso de onboarding y desempeño comercial
 
 
 ## Valor de Negocio
